@@ -5,5 +5,5 @@ Commands:
 
     npm install : install all dependencies
     npm start : starting the server
-    npm run : opens browser whilst starting the server
+    npm run-script run : opens browser whilst starting the server
 
