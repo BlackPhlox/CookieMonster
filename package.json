@@ -1,0 +1,32 @@
+{
+  "name": "cookiemonster",
+  "version": "1.0.0",
+  "description": "XSS cookie hijacking server",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "npm": "^6.9.0",
+    "opn": "^6.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+	"run": "node server.js -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlackPhlox/CookieMonster.git"
+  },
+  "keywords": [
+    "xss",
+    "security",
+    "itu"
+  ],
+  "author": "BlackPhlox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlackPhlox/CookieMonster/issues"
+  },
+  "homepage": "https://github.com/BlackPhlox/CookieMonster#readme"
+}

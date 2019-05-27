@@ -1,6 +1,10 @@
 const express = require('express');
 const server = express();
 const fs = require('fs');
+const opn = require('opn');
+
+// opens the url in the default browser 
+
 
 const serverConsolePromtPrefix = "<CookieMonster ";
 const serverConsolePromtPostfix = "> ";
@@ -32,6 +36,10 @@ const port = 5123;
 server.listen(port, function() {
   print('Listening on port ' + port)
 })
+
+process.argv.forEach(function (val, index, array) {
+  if(index == 2 && (val == "-open" || val == "-o")) opn("http://localhost:5123/");
+});
 
 function writeToLog(str){
   fs.appendFile('cookieLog.txt', str, err => {
