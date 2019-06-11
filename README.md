@@ -8,3 +8,4 @@ Commands:
     npm start : starting the server
     npm run-script run : opens browser whilst starting the server
 
+[Original image](https://www.kisspng.com/png-cookie-monster-elmo-drawing-clip-art-cookie-monste-5155338/) by [Groomsmen](https://www.kisspng.com/users/@groomsmen.html), license is personal use only
