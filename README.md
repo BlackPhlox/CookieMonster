@@ -9,9 +9,14 @@ Commands:
     npm run-script run : opens browser whilst starting the server
 
 To use:
+
+    Notice: This only works locally(logically), which means you 
+    have to have a local server running with your website (and a database for comments/usercontent) 
+    in order to test it.
     
     Copy and paste the content of payload.txt into the console of 
     another browser window or another device on your network.
+    This textstring might be what the user run if your website is not secure. 
     
     Look in the console with cookiemonster to see the content of the cookie.
 
