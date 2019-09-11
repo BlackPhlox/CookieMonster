@@ -1,6 +1,6 @@
 
 # CookieMonster
-XSS cookie fetcher server, used for educational perpose only
+Cross site scripting(XSS) cookie-fetch server, used for educational perpose only
 
 Commands:
 
