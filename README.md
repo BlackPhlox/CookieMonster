@@ -16,7 +16,10 @@ To use:
     
     Copy and paste the content of payload.txt into the console of 
     another browser window or another device on your network.
-    This textstring might be what the user run if your website is not secure. 
+    This textstring might be what the user run if your website is not secure.
+    
+    To test, try using the payload on a website like https://developer.mozilla.org/en-US/
+    and see if the server retrives the cookie.
     
     Look in the console with cookiemonster to see the content of the cookie.
 
