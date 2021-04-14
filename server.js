@@ -42,7 +42,7 @@ process.argv.forEach(function (val, index, array) {
 });
 
 function writeToLog(str){
-  fs.appendFile('cookieLog.txt', str, err => {
+  fs.appendFile('cookieLog.log', str, err => {
     if (err) throw err;
     print('*Nom nom* Cookie received!');
   });
