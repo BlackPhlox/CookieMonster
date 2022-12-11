@@ -4,7 +4,7 @@
   "description": "XSS cookie hijacking server",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "npm": "^6.14.6",
     "opn": "^6.0.0"
   },
